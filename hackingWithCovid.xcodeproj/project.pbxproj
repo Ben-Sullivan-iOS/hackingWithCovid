@@ -13,6 +13,8 @@
 		4800A782250E4628001727DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800A780250E4628001727DE /* Main.storyboard */; };
 		4800A784250E4629001727DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4800A783250E4629001727DE /* Assets.xcassets */; };
 		4800A787250E4629001727DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4800A785250E4629001727DE /* LaunchScreen.storyboard */; };
+		4800A78F250E469D001727DE /* jsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4800A78E250E469D001727DE /* jsonData.json */; };
+		4800A791250E5FF2001727DE /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4800A790250E5FF1001727DE /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4800A783250E4629001727DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4800A786250E4629001727DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4800A788250E4629001727DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4800A78E250E469D001727DE /* jsonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonData.json; sourceTree = "<group>"; };
+		4800A790250E5FF1001727DE /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		4800A76E250E4628001727DE = {
 			isa = PBXGroup;
 			children = (
+				4800A78E250E469D001727DE /* jsonData.json */,
 				4800A779250E4628001727DE /* hackingWithCovid */,
 				4800A778250E4628001727DE /* Products */,
 			);
@@ -61,6 +66,7 @@
 				4800A77E250E4628001727DE /* ViewController.swift */,
 				4800A780250E4628001727DE /* Main.storyboard */,
 				4800A783250E4629001727DE /* Assets.xcassets */,
+				4800A790250E5FF1001727DE /* audio.mp3 */,
 				4800A785250E4629001727DE /* LaunchScreen.storyboard */,
 				4800A788250E4629001727DE /* Info.plist */,
 			);
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4800A791250E5FF2001727DE /* audio.mp3 in Resources */,
 				4800A787250E4629001727DE /* LaunchScreen.storyboard in Resources */,
+				4800A78F250E469D001727DE /* jsonData.json in Resources */,
 				4800A784250E4629001727DE /* Assets.xcassets in Resources */,
 				4800A782250E4628001727DE /* Main.storyboard in Resources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

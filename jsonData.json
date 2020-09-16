@@ -1,0 +1,12 @@
+{
+    "topLevelTestCentreId": "CVD19",
+    "postcode": "YOUR POSTCODE HERE",
+    "testCentreGroupIds": ["GR_LTS", "GR_MTU"],
+    "startDate": "2020-09-12T00:00:00",
+    "numberOfDays": 5,
+    "appointmentTypeCode": "ATCOM05",
+    "paging": {
+        "currentPage": 1,
+        "pageSize": 3
+    }
+}
